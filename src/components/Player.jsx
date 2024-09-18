@@ -10,9 +10,9 @@ export default function Player() {
     playerName.current.value = "";
   }
 
-  useEffect(() => {
-    playerName.current.focus();
-  }, []);
+  // useEffect(() => {
+  //   playerName.current.focus();
+  // }, []);
 
   return (
     <section id="player">
